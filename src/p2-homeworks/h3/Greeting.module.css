@@ -1,0 +1,38 @@
+.someClass {
+    position: absolute;
+    color : red;
+    bottom: 12px;
+    left: 0;
+}
+
+.error {
+    border: 1px solid red;
+    
+    outline: red;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+
+.input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.wrapper{
+    position: relative;
+}
+.button{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #7a5594;
+    margin-left: 5px;
+}

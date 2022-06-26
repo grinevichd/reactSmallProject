@@ -1,0 +1,20 @@
+.default {
+
+}
+
+.red {
+    background: red;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.button:disabled:hover{
+    background-color: gray;
+}

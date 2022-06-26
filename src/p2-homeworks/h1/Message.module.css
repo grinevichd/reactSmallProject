@@ -1,0 +1,58 @@
+.message {
+    border: 1px solid black;
+    width: 200px;
+
+    position: relative;
+    background-color: #002200;
+    border-radius: 10px;
+    clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%, 13% 68%);
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 40px;
+    width: 200px;
+
+
+}
+
+.time {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    color: #2f7031;
+}
+
+.avatar {
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.wrapper {
+    display: flex;
+    width: 16%;
+    background-color: #a8e700;
+}
+
+.avatarElement {
+    align-self: flex-end;
+
+}
+
+.messageName {
+    color: #b89edb;
+}
+
+.messageText {
+    word-wrap: break-word;
+    width: 100px;
+    color: #b7c3a7;
+
+}

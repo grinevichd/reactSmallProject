@@ -1,0 +1,21 @@
+.superInput {
+    display:block;
+    margin:10px 0;
+    padding:10px;
+    border-radius:10px;
+    border: 1px solid #afa1a1;
+    transition: .3s border-color;
+    width: 200px;
+}
+/*.superInput:hover{*/
+/*    border: 1px solid #464141;*/
+/*}*/
+
+.errorInput {
+    border: 3px solid lime;
+    background: red;
+}
+
+.error {
+    color: red;
+}

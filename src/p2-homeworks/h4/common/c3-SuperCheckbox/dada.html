@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="search"/>
+<button id="find">find</button>
+
+<script>
+    function removeWhitespaces(string) {
+       return  string.split(' ').filter(s => s !== '').join('_')
+    }
+
+    console.log(removeWhitespaces('you are JS developer'))
+</script>
+</body>
+</html>

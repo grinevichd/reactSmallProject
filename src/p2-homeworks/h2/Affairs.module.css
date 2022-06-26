@@ -1,0 +1,38 @@
+.button {
+    width: 100px;
+    background-color: #7a5594;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+.wrapper{
+    width: 500px;
+}
+.column{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.column span {
+    width: 100px;
+}
+.container{
+    width: 500px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.deleteButton{
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #f636d3;
+}
+
+.checkedButton{
+    background-color: #6c3232;
+}

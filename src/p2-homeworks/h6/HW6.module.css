@@ -1,0 +1,9 @@
+.spanStyle {
+    color : blueviolet;
+    cursor: pointer;
+}
+.spanStyle:after{
+    content: url("../h6/pen.svg");
+    height: 20px;
+    width: 30px;
+}

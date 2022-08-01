@@ -1,14 +1,26 @@
-const initState = {
 
+const SET_LOADER = "SET_LOADER"
+
+type LoadingAT = {
+    type : "SET_LOADER"
+    loader : boolean
+}
+export type initStateType = {
+    loader : boolean
 }
 
-export const loadingReducer = (state = initState, action: any): any => { // fix any
+ const initState : initStateType = {
+  loader : false
+}
+
+export const loadingReducer = (state = initState, action: LoadingAT): initStateType => { // fix any
+    debugger
     switch (action.type) {
-        case '': {
-            return state
+        case 'SET_LOADER': {
+            return {...state, loader : action.loader}
         }
         default: return state
     }
 }
 
-export const loadingAC = (): any => {} // fix any
+export const loadingAC = (loader : boolean): LoadingAT => ({type : SET_LOADER, loader}) // fix any

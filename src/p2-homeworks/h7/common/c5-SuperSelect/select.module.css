@@ -1,0 +1,11 @@
+.select {
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #7a5594;
+
+}
+.option{
+    background-color: #b89edb;
+    color: white;
+}

@@ -1,0 +1,13 @@
+.wrapper {
+    display: inline-block;
+    width: 300px;
+}
+
+.buttonsContainer {
+    display: flex;
+    margin: 5px;
+}
+
+.container {
+    height: 140px;
+}

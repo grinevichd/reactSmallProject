@@ -8,13 +8,9 @@ import img from "./Infinity-1s-191px.svg"
 function HW10() {
     // useSelector, useDispatch
 
-    console.log(1)
-
     const loader = useSelector<AppStoreType,boolean>(state=>state.loading.loader)
     const dispatch = useDispatch()
-    debugger
     const loading = loader
-
     const setLoading = () => {
         dispatch(loadingAC(true))
         setTimeout(()=>dispatch(loadingAC(false)),1500)

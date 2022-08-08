@@ -1,5 +1,6 @@
 import React, {ChangeEvent, DetailedHTMLProps, InputHTMLAttributes} from 'react'
 import s from './SuperRange.module.css'
+import style from "../c8-SuperDoubleRange/doubleInput.module.css";
 
 // тип пропсов обычного инпута
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
@@ -29,13 +30,13 @@ const SuperRange: React.FC<SuperRangePropsType> = (
 
     return (
         <>
-            <input
-                type={'range'}
-                onChange={onChangeCallback}
-                className={finalRangeClassName}
 
-                {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
-            />
+            <div className={style.slider}>
+                <div className={style.progress}></div>
+                <div className={style.rangeInput}>
+                    <input type="range" className={style.rangeMax} onChange={onChangeCallback} {...restProps} />
+                </div>
+            </div>
         </>
     )
 }

@@ -14,7 +14,7 @@ export type initStateType = {
 }
 
 export const loadingReducer = (state = initState, action: LoadingAT): initStateType => { // fix any
-    debugger
+
     switch (action.type) {
         case 'SET_LOADER': {
             return {...state, loader : action.loader}
